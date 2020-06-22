@@ -1,0 +1,47 @@
+.pt-table {
+    background-color: white;
+}
+.active-only {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+.desk-table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.desk-table thead {
+    background-color: #e6e6ee;
+    padding: 2px;
+    
+}
+
+.desk-table th:nth-child(1),
+.desk-table tr td:nth-child(1)
+{
+    padding-left: 8px;
+}
+
+.desk-table th
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.desk-table td {
+    cursor: pointer;
+}
+.desk-table tbody tr:nth-child(even)
+{
+    background-color: rgba(230,230,230, .5);
+}
+.desk-table tr.no-records {
+    width: 100%;
+    border-bottom: solid 1px #e6e6ee;
+}
+.desk-table tbody tr:hover
+{
+    background-color: rgba(230,230,230, .8);
+}
